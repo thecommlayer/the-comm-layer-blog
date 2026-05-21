@@ -1,5 +1,2 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
-export const SITE_TITLE = 'Astro Blog';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_TITLE = 'The Comm Layer';
+export const SITE_DESCRIPTION = 'I write about AI communications and fraud at the platform layer. A decade on both sides of the comms API: American Express, Twilio, now Microsoft. The hard problems are about accountability and architecture, not better models. Views my own.';
