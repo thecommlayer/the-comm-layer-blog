@@ -2,6 +2,7 @@
 title: "Friction Debt"
 description: "Friction debt is the cost a platform accumulates every time it makes it easier for users to do actions at scale"
 pubDate: 2026-05-17
+heroImage: '/lifecycle.png'
 tags: ["fraud", "fintech", "telecom"]
 ---
 
