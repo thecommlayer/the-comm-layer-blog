@@ -1,7 +1,7 @@
 ---
 title: "The Eval You Run When the Clock Is Running"
 description: "Most writing about evaluation assumes you have time. It assumes a held-out dataset, a labeling panel, a power analysis, weeks of iteration. That assumption is fine for shipping decisions. It is useless during an active attack"
-pubDate: 2026-05-29
+pubDate: 2026-05-25
 tags: ["fraud", "eval"]
 ---
 
