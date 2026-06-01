@@ -1,4 +1,9 @@
-# Rules Are the Bones, Models Are the Muscle
+---
+title: "Rules Are the Bones, Models Are the Muscle"
+description: "This is the third post in a short series on evaluating fraud detection. The first covered the lightweight evaluation you run during an active campaign. The second covered the heavy evaluation that gates a model release. This one steps back to a question that comes up every time someone reviews a detection system for the first time."
+pubDate: 2026-05-31
+tags: ["fraud", "eval"]
+---
 
 This is the third post in a short series on evaluating fraud detection. The first covered the lightweight evaluation you run during an active campaign. The second covered the heavy evaluation that gates a model release. This one steps back to a question that comes up every time someone reviews a detection system for the first time.
 
