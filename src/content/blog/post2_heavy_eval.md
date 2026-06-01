@@ -1,7 +1,7 @@
 ---
 title: "The Eval That Decides Whether You Ship"
 description: "The companion to this post described the lightweight evaluation: the one you run under a clock, when a campaign is active and a response ships in hours. This post describes the other instrument. The heavy evaluation is what gates a model release. It is slow, deliberate, and expensive, and those properties are features rather than defects."
-pubDate: 2026-05-29
+pubDate: 2026-05-30
 tags: ["fraud", "eval"]
 ---
 

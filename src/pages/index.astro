@@ -93,9 +93,6 @@ const posts = (await getCollection('blog')).sort(
   <body>
     <Header />
     <main>
-      <div class="page-intro">
-        <p>My writings on AI Communications and Fraud.</p>
-      </div>
       <ul class="post-list">
         {posts.map((post) => (
           <li>
