@@ -103,17 +103,26 @@ const regularPosts = allPosts.filter(post => !post.data.pinned);
       .pinned-list li a {
         display: block;
         padding: 1.8em 2em;
-        background: #2a1f0e;
-        border: 1px solid #c8730a;
-        border-left: 4px solid #c8730a;
+        background: var(--pinned-bg, #2a1f0e);
+        border: 1px solid var(--pinned-border, #c8730a);
+        border-left: 4px solid var(--pinned-border, #c8730a);
         border-radius: 12px;
         text-decoration: none;
         transition: background 0.2s ease, transform 0.2s ease;
       }
 
       .pinned-list li a:hover {
-        background: #332510;
+        background: var(--pinned-hover, #332510);
         transform: translateY(-2px);
+      }
+
+      .pinned-badge {
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--pinned-border, #c8730a);
+        margin-bottom: 8px;
+        display: block;
       }
 
       .pinned-badge {
@@ -123,6 +132,26 @@ const regularPosts = allPosts.filter(post => !post.data.pinned);
         color: #c8730a;
         margin-bottom: 8px;
         display: block;
+      }
+        .pinned-list li:nth-child(4n + 1) {
+        --pinned-bg: #2a1f0e;
+        --pinned-hover: #332510;
+        --pinned-border: #c8730a;
+      }
+      .pinned-list li:nth-child(4n + 2) {
+        --pinned-bg: #0e2a1f;
+        --pinned-hover: #10332510;
+        --pinned-border: #0a9e6e;
+      }
+      .pinned-list li:nth-child(4n + 3) {
+        --pinned-bg: #1f0e2a;
+        --pinned-hover: #271233;
+        --pinned-border: #9b4dc8;
+      }
+      .pinned-list li:nth-child(4n + 4) {
+        --pinned-bg: #0e1f2a;
+        --pinned-hover: #122733;
+        --pinned-border: #0a7ec8;
       }
     </style>
   </head>
